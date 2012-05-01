@@ -1,4 +1,7 @@
 #!/usr/bin/igawk -f
+# License - MIT Style.
+#   short version: free to use/modify/distribute
+#   Long version: see LICENSE file for details.
 function parse(line,	word, wordline, len, w) {
 
 	len = split(line, wordline);
